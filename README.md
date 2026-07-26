@@ -25,5 +25,16 @@ in die Struktur **`JJJJ/MM/`**.
 ### Erstmal nur anschauen, was passieren würde
 ```python move_date_dirs.py /pfad/zum/ordner --dry-run```
 
+## Leere-Verzeichnisse-Löschen-Skript: delete_empty_dirs.py
 
+Löscht rekursiv alle **leeren Verzeichnisse** in einem angegebenen Ordner  
+(und in allen Unterordnern).
 
+### Im aktuellen Verzeichnis ausführen
+```python delete_empty_dirs.py```
+
+### Bestimmtes Verzeichnis angeben
+```python python delete_empty_dirs.py /pfad/zum/ordner```
+
+### Erstmal nur anschauen, was passieren würde
+```python python delete_empty_dirs.py /pfad/zum/ordner --dry-run```
