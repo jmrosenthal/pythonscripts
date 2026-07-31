@@ -1,5 +1,12 @@
 # pythonscripts
 
+## Skripte
+
+- [move_date_dirs.py](move_date_dirs.py) – Verzeichnisse `JJJJ.MM.TT` / `TT.MM.JJJJ` → `JJJJ/MM/`
+- [move_date_files.py](move_date_files.py) – Dateien `YYYY-MM-DD_...` → `JJJJ/MM/`
+- [delete_empty_dirs.py](delete_empty_dirs.py) – Leere Verzeichnisse rekursiv löschen
+
+
 ## Verzeichnis-Verschiebe-Skript: move_date_dirs.py
 
 Verschiebt Verzeichnisse der Form **`JJJJ.MM.TT`** oder **`TT.MM.JJJJ`**  
